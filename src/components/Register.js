@@ -46,7 +46,7 @@ const Register = () => {
           values.name === name &&
           values.email === emailId &&
           values.password === password &&
-          values.phone == phoneNo
+          values.phone === phoneNo
         ) {
           window.alert("YOU ARE VALID USER");
           onSubmitProps.setSubmitting(false);
@@ -65,7 +65,7 @@ const Register = () => {
             <Input label="Name" name="name" type="text" />
             <Input label="Email" name="email" type="email" />
             <Input label="Password" name="password" type="password" />
-            <Input label="Phone Number" name="phone" type="number" />
+            <Input label="Phone Number" name="phone" type="text" />
             <button type="reset" className="btn1">
               Reset
             </button>

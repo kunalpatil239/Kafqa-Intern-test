@@ -8,7 +8,6 @@ const Input = ({ label, ...props }) => {
     <div className="input-container">
       <label htmlFor={field.name}>{label}</label>
       <input
-        type="text"
         id={field.name}
         className={`${meta.touched && meta.error && "invalid"}`}
         autoComplete="off"
